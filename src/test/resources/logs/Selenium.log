@@ -1,157 +1,157 @@
-08:12:49,971 DEBUG devpinoyLogger:53 - Config File loaded!
-08:12:49,989 DEBUG devpinoyLogger:67 - OR File loaded!
-08:13:11,898 DEBUG devpinoyLogger:90 - Firefox browser launched!
-08:13:15,270 DEBUG devpinoyLogger:97 - Navigated to : https://ui.cogmento.com/
-08:13:15,609 DEBUG devpinoyLogger:103 - Test execution started
-08:13:21,637 DEBUG devpinoyLogger:114 - Logged into the application. URL-> https://ui.cogmento.com/
-08:13:21,653 DEBUG devpinoyLogger:22 - Add contact test execution started
-08:13:26,346 DEBUG devpinoyLogger:163 - Moved to element: [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //a[@class='item'][@href="/contacts"]]
-08:13:27,290 DEBUG devpinoyLogger:149 - Clicked on: //span[text()='Contacts']
-08:13:27,409 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //button[text()='Create']] found on page
-08:13:28,957 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Create']
-08:13:29,675 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //div[text()='Create New Contact']] found on page
-08:13:32,119 DEBUG devpinoyLogger:156 - Typed in: //input[@name='first_name'] Value: Bob
-08:13:35,909 DEBUG devpinoyLogger:156 - Typed in: //input[@name='last_name'] Value: Marley
-08:13:36,313 DEBUG devpinoyLogger:156 - Typed in: //div[@name='company']//input Value: Microsoft
-08:13:38,195 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Save']
-08:13:39,674 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //span[text()='Home']//preceding::i] found on page
-08:13:39,894 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-08:13:39,897 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-08:13:39,899 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-08:13:39,901 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-08:13:39,902 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-08:13:46,637 DEBUG devpinoyLogger:128 - Logged out of application
-08:13:46,639 DEBUG devpinoyLogger:103 - Test execution started
-08:13:52,705 DEBUG devpinoyLogger:114 - Logged into the application. URL-> https://ui.cogmento.com/
-08:13:52,708 DEBUG devpinoyLogger:22 - Add contact test execution started
-08:13:57,469 DEBUG devpinoyLogger:163 - Moved to element: [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //a[@class='item'][@href="/contacts"]]
-08:13:57,997 DEBUG devpinoyLogger:149 - Clicked on: //span[text()='Contacts']
-08:13:58,103 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //button[text()='Create']] found on page
-08:13:59,294 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Create']
-08:13:59,411 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //div[text()='Create New Contact']] found on page
-08:14:01,542 DEBUG devpinoyLogger:156 - Typed in: //input[@name='first_name'] Value: John
-08:14:08,480 DEBUG devpinoyLogger:156 - Typed in: //input[@name='last_name'] Value: Smith
-08:14:08,955 DEBUG devpinoyLogger:156 - Typed in: //div[@name='company']//input Value: Google
-08:14:12,433 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Save']
-08:14:13,783 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //span[text()='Home']//preceding::i] found on page
-08:14:14,046 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-08:14:14,048 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-08:14:14,053 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-08:14:14,055 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-08:14:14,056 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-08:14:20,905 DEBUG devpinoyLogger:128 - Logged out of application
-08:14:20,908 DEBUG devpinoyLogger:103 - Test execution started
-08:14:27,216 DEBUG devpinoyLogger:114 - Logged into the application. URL-> https://ui.cogmento.com/
-08:14:27,219 DEBUG devpinoyLogger:22 - Add contact test execution started
-08:14:32,569 DEBUG devpinoyLogger:163 - Moved to element: [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //a[@class='item'][@href="/contacts"]]
-08:14:33,345 DEBUG devpinoyLogger:149 - Clicked on: //span[text()='Contacts']
-08:14:33,455 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //button[text()='Create']] found on page
-08:14:34,883 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Create']
-08:14:36,224 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //div[text()='Create New Contact']] found on page
-08:14:40,462 DEBUG devpinoyLogger:156 - Typed in: //input[@name='first_name'] Value: Mike
-08:14:48,785 DEBUG devpinoyLogger:156 - Typed in: //input[@name='last_name'] Value: Jones
-08:14:50,270 DEBUG devpinoyLogger:156 - Typed in: //div[@name='company']//input Value: FIS
-08:14:57,847 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Save']
-08:14:59,325 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //span[text()='Home']//preceding::i] found on page
-08:14:59,503 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-08:14:59,504 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-08:14:59,505 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-08:14:59,506 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-08:14:59,507 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-08:15:06,845 DEBUG devpinoyLogger:128 - Logged out of application
-08:15:06,846 DEBUG devpinoyLogger:103 - Test execution started
-08:15:18,922 DEBUG devpinoyLogger:114 - Logged into the application. URL-> https://ui.cogmento.com/
-08:15:18,924 DEBUG devpinoyLogger:22 - Add contact test execution started
-08:15:32,792 DEBUG devpinoyLogger:163 - Moved to element: [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //a[@class='item'][@href="/contacts"]]
-08:15:35,369 DEBUG devpinoyLogger:149 - Clicked on: //span[text()='Contacts']
-08:15:35,738 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //button[text()='Create']] found on page
-08:15:37,741 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Create']
-08:15:38,656 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //div[text()='Create New Contact']] found on page
-08:15:43,014 DEBUG devpinoyLogger:156 - Typed in: //input[@name='first_name'] Value: Phil
-08:15:57,428 DEBUG devpinoyLogger:156 - Typed in: //input[@name='last_name'] Value: Murray
-08:15:58,296 DEBUG devpinoyLogger:156 - Typed in: //div[@name='company']//input Value: Facebook
-08:16:12,444 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Save']
-08:16:16,371 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //span[text()='Home']//preceding::i] found on page
-08:16:16,876 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-08:16:16,879 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-08:16:16,881 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-08:16:16,882 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-08:16:16,882 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-08:16:24,358 DEBUG devpinoyLogger:128 - Logged out of application
-08:16:24,482 DEBUG devpinoyLogger:103 - Test execution started
-08:16:32,270 DEBUG devpinoyLogger:114 - Logged into the application. URL-> https://ui.cogmento.com/
-08:16:32,273 DEBUG devpinoyLogger:22 - Add deals test execution started
-08:16:37,666 DEBUG devpinoyLogger:163 - Moved to element: [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //a[@class='item'][@href="/deals"]]
-08:16:38,578 DEBUG devpinoyLogger:149 - Clicked on: //span[text()='Deals']
-08:16:38,763 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //button[text()='Create']] found on page
-08:16:40,822 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Create']
-08:16:42,441 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //div[text()='Create new Deal']] found on page
-08:16:43,174 DEBUG devpinoyLogger:156 - Typed in: //input[@name='title'] Value: FMCG
-08:16:43,573 DEBUG devpinoyLogger:156 - Typed in: //div[@name='company']//input Value: Nestle
-08:16:46,078 DEBUG devpinoyLogger:156 - Typed in: //textarea[@name='description'] Value: Food manufacturing
-08:16:47,745 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Save']
-08:16:47,877 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //span[text()='Home']//preceding::i] found on page
-08:16:48,321 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-08:16:48,322 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-08:16:48,323 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-08:16:48,324 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-08:16:48,325 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-08:16:56,532 DEBUG devpinoyLogger:128 - Logged out of application
-08:16:56,534 DEBUG devpinoyLogger:103 - Test execution started
-08:17:09,659 DEBUG devpinoyLogger:114 - Logged into the application. URL-> https://ui.cogmento.com/
-08:17:09,661 DEBUG devpinoyLogger:22 - Add deals test execution started
-08:17:15,595 DEBUG devpinoyLogger:163 - Moved to element: [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //a[@class='item'][@href="/deals"]]
-08:17:16,779 DEBUG devpinoyLogger:149 - Clicked on: //span[text()='Deals']
-08:17:18,053 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //button[text()='Create']] found on page
-08:17:22,726 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Create']
-08:17:23,652 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //div[text()='Create new Deal']] found on page
-08:17:27,068 DEBUG devpinoyLogger:156 - Typed in: //input[@name='title'] Value: Automobile
-08:17:27,565 DEBUG devpinoyLogger:156 - Typed in: //div[@name='company']//input Value: Ford
-08:17:31,645 DEBUG devpinoyLogger:156 - Typed in: //textarea[@name='description'] Value: Cars, Trucks
-08:17:35,821 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Save']
-08:17:38,084 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //span[text()='Home']//preceding::i] found on page
-08:17:38,453 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-08:17:38,454 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-08:17:38,455 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-08:17:38,456 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-08:17:38,457 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-08:17:46,219 DEBUG devpinoyLogger:128 - Logged out of application
-08:17:46,221 DEBUG devpinoyLogger:103 - Test execution started
-08:17:59,007 DEBUG devpinoyLogger:114 - Logged into the application. URL-> https://ui.cogmento.com/
-08:17:59,010 DEBUG devpinoyLogger:22 - Add deals test execution started
-08:18:06,845 DEBUG devpinoyLogger:163 - Moved to element: [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //a[@class='item'][@href="/deals"]]
-08:18:07,915 DEBUG devpinoyLogger:149 - Clicked on: //span[text()='Deals']
-08:18:08,804 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //button[text()='Create']] found on page
-08:18:10,744 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Create']
-08:18:11,132 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //div[text()='Create new Deal']] found on page
-08:18:16,062 DEBUG devpinoyLogger:156 - Typed in: //input[@name='title'] Value: Information Technology
-08:18:17,822 DEBUG devpinoyLogger:156 - Typed in: //div[@name='company']//input Value: FIS
-08:18:21,527 DEBUG devpinoyLogger:156 - Typed in: //textarea[@name='description'] Value: Fintech
-08:18:22,990 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Save']
-08:18:24,343 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //span[text()='Home']//preceding::i] found on page
-08:18:24,659 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-08:18:24,660 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-08:18:24,661 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-08:18:24,662 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-08:18:24,662 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-08:18:32,108 DEBUG devpinoyLogger:128 - Logged out of application
-08:18:32,109 DEBUG devpinoyLogger:103 - Test execution started
-08:18:39,477 DEBUG devpinoyLogger:114 - Logged into the application. URL-> https://ui.cogmento.com/
-08:18:39,479 DEBUG devpinoyLogger:22 - Add deals test execution started
-08:18:44,520 DEBUG devpinoyLogger:163 - Moved to element: [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //a[@class='item'][@href="/deals"]]
-08:18:45,788 DEBUG devpinoyLogger:149 - Clicked on: //span[text()='Deals']
-08:18:47,054 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //button[text()='Create']] found on page
-08:18:49,148 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Create']
-08:18:49,686 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //div[text()='Create new Deal']] found on page
-08:18:51,748 DEBUG devpinoyLogger:156 - Typed in: //input[@name='title'] Value: Space
-08:18:52,399 DEBUG devpinoyLogger:156 - Typed in: //div[@name='company']//input Value: NASA
-08:18:57,037 DEBUG devpinoyLogger:156 - Typed in: //textarea[@name='description'] Value: Rockets
-08:18:59,393 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Save']
-08:19:00,097 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //span[text()='Home']//preceding::i] found on page
-08:19:00,543 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-08:19:00,544 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-08:19:00,546 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-08:19:00,546 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-08:19:00,547 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-08:19:08,468 DEBUG devpinoyLogger:128 - Logged out of application
-08:19:13,081 DEBUG devpinoyLogger:137 - Test Execution completed!
+16:37:18,915 DEBUG devpinoyLogger:53 - Config File loaded!
+16:37:18,919 DEBUG devpinoyLogger:67 - OR File loaded!
+16:37:30,962 DEBUG devpinoyLogger:90 - Firefox browser launched!
+16:37:33,188 DEBUG devpinoyLogger:97 - Navigated to : https://ui.cogmento.com/
+16:37:33,249 DEBUG devpinoyLogger:103 - Test execution started
+16:37:38,775 DEBUG devpinoyLogger:114 - Logged into the application. URL-> https://ui.cogmento.com/
+16:37:38,781 DEBUG devpinoyLogger:22 - Add contact test execution started
+16:37:39,973 DEBUG devpinoyLogger:163 - Moved to element: [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //a[@class='item'][@href="/contacts"]]
+16:37:40,486 DEBUG devpinoyLogger:149 - Clicked on: //span[text()='Contacts']
+16:37:40,571 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //button[text()='Create']] found on page
+16:37:41,171 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Create']
+16:37:41,416 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //div[text()='Create New Contact']] found on page
+16:37:42,000 DEBUG devpinoyLogger:156 - Typed in: //input[@name='first_name'] Value: Bob
+16:37:43,405 DEBUG devpinoyLogger:156 - Typed in: //input[@name='last_name'] Value: Marley
+16:37:43,548 DEBUG devpinoyLogger:156 - Typed in: //div[@name='company']//input Value: Microsoft
+16:37:44,309 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Save']
+16:37:44,359 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //span[text()='Home']//preceding::i] found on page
+16:37:44,585 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+16:37:44,587 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+16:37:44,589 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+16:37:44,590 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+16:37:44,591 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+16:37:50,755 DEBUG devpinoyLogger:128 - Logged out of application
+16:37:50,756 DEBUG devpinoyLogger:103 - Test execution started
+16:37:56,172 DEBUG devpinoyLogger:114 - Logged into the application. URL-> https://ui.cogmento.com/
+16:37:56,173 DEBUG devpinoyLogger:22 - Add contact test execution started
+16:37:56,912 DEBUG devpinoyLogger:163 - Moved to element: [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //a[@class='item'][@href="/contacts"]]
+16:37:58,295 DEBUG devpinoyLogger:149 - Clicked on: //span[text()='Contacts']
+16:37:58,341 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //button[text()='Create']] found on page
+16:37:58,853 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Create']
+16:37:58,908 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //div[text()='Create New Contact']] found on page
+16:37:59,653 DEBUG devpinoyLogger:156 - Typed in: //input[@name='first_name'] Value: John
+16:38:00,879 DEBUG devpinoyLogger:156 - Typed in: //input[@name='last_name'] Value: Smith
+16:38:00,980 DEBUG devpinoyLogger:156 - Typed in: //div[@name='company']//input Value: Google
+16:38:01,535 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Save']
+16:38:02,379 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //span[text()='Home']//preceding::i] found on page
+16:38:02,441 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+16:38:02,441 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+16:38:02,442 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+16:38:02,443 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+16:38:02,443 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+16:38:08,101 DEBUG devpinoyLogger:128 - Logged out of application
+16:38:08,102 DEBUG devpinoyLogger:103 - Test execution started
+16:38:13,509 DEBUG devpinoyLogger:114 - Logged into the application. URL-> https://ui.cogmento.com/
+16:38:13,510 DEBUG devpinoyLogger:22 - Add contact test execution started
+16:38:14,292 DEBUG devpinoyLogger:163 - Moved to element: [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //a[@class='item'][@href="/contacts"]]
+16:38:15,119 DEBUG devpinoyLogger:149 - Clicked on: //span[text()='Contacts']
+16:38:15,165 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //button[text()='Create']] found on page
+16:38:15,838 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Create']
+16:38:15,995 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //div[text()='Create New Contact']] found on page
+16:38:17,402 DEBUG devpinoyLogger:156 - Typed in: //input[@name='first_name'] Value: Mike
+16:38:18,696 DEBUG devpinoyLogger:156 - Typed in: //input[@name='last_name'] Value: Jones
+16:38:18,812 DEBUG devpinoyLogger:156 - Typed in: //div[@name='company']//input Value: FIS
+16:38:19,398 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Save']
+16:38:19,629 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //span[text()='Home']//preceding::i] found on page
+16:38:20,208 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+16:38:20,208 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+16:38:20,208 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+16:38:20,210 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+16:38:20,210 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+16:38:25,834 DEBUG devpinoyLogger:128 - Logged out of application
+16:38:25,835 DEBUG devpinoyLogger:103 - Test execution started
+16:38:31,212 DEBUG devpinoyLogger:114 - Logged into the application. URL-> https://ui.cogmento.com/
+16:38:31,213 DEBUG devpinoyLogger:22 - Add contact test execution started
+16:38:31,961 DEBUG devpinoyLogger:163 - Moved to element: [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //a[@class='item'][@href="/contacts"]]
+16:38:32,666 DEBUG devpinoyLogger:149 - Clicked on: //span[text()='Contacts']
+16:38:32,709 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //button[text()='Create']] found on page
+16:38:33,324 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Create']
+16:38:33,517 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //div[text()='Create New Contact']] found on page
+16:38:34,566 DEBUG devpinoyLogger:156 - Typed in: //input[@name='first_name'] Value: Phil
+16:38:35,488 DEBUG devpinoyLogger:156 - Typed in: //input[@name='last_name'] Value: Murray
+16:38:35,584 DEBUG devpinoyLogger:156 - Typed in: //div[@name='company']//input Value: Facebook
+16:38:36,627 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Save']
+16:38:37,031 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //span[text()='Home']//preceding::i] found on page
+16:38:37,096 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+16:38:37,096 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+16:38:37,097 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+16:38:37,097 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+16:38:37,097 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+16:38:42,702 DEBUG devpinoyLogger:128 - Logged out of application
+16:38:42,725 DEBUG devpinoyLogger:103 - Test execution started
+16:38:48,113 DEBUG devpinoyLogger:114 - Logged into the application. URL-> https://ui.cogmento.com/
+16:38:48,114 DEBUG devpinoyLogger:22 - Add deals test execution started
+16:38:48,874 DEBUG devpinoyLogger:163 - Moved to element: [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //a[@class='item'][@href="/deals"]]
+16:38:49,921 DEBUG devpinoyLogger:149 - Clicked on: //span[text()='Deals']
+16:38:49,969 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //button[text()='Create']] found on page
+16:38:50,765 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Create']
+16:38:50,837 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //div[text()='Create new Deal']] found on page
+16:38:51,060 DEBUG devpinoyLogger:156 - Typed in: //input[@name='title'] Value: FMCG
+16:38:51,174 DEBUG devpinoyLogger:156 - Typed in: //div[@name='company']//input Value: Nestle
+16:38:51,638 DEBUG devpinoyLogger:156 - Typed in: //textarea[@name='description'] Value: Food manufacturing
+16:38:52,087 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Save']
+16:38:52,124 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //span[text()='Home']//preceding::i] found on page
+16:38:52,200 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+16:38:52,201 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+16:38:52,201 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+16:38:52,202 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+16:38:52,202 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+16:38:57,785 DEBUG devpinoyLogger:128 - Logged out of application
+16:38:57,786 DEBUG devpinoyLogger:103 - Test execution started
+16:39:03,224 DEBUG devpinoyLogger:114 - Logged into the application. URL-> https://ui.cogmento.com/
+16:39:03,225 DEBUG devpinoyLogger:22 - Add deals test execution started
+16:39:04,202 DEBUG devpinoyLogger:163 - Moved to element: [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //a[@class='item'][@href="/deals"]]
+16:39:04,969 DEBUG devpinoyLogger:149 - Clicked on: //span[text()='Deals']
+16:39:05,019 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //button[text()='Create']] found on page
+16:39:05,683 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Create']
+16:39:05,810 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //div[text()='Create new Deal']] found on page
+16:39:06,184 DEBUG devpinoyLogger:156 - Typed in: //input[@name='title'] Value: Automobile
+16:39:06,306 DEBUG devpinoyLogger:156 - Typed in: //div[@name='company']//input Value: Ford
+16:39:06,790 DEBUG devpinoyLogger:156 - Typed in: //textarea[@name='description'] Value: Cars, Trucks
+16:39:07,412 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Save']
+16:39:07,446 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //span[text()='Home']//preceding::i] found on page
+16:39:07,532 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+16:39:07,533 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+16:39:07,533 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+16:39:07,534 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+16:39:07,534 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+16:39:13,155 DEBUG devpinoyLogger:128 - Logged out of application
+16:39:13,156 DEBUG devpinoyLogger:103 - Test execution started
+16:39:18,534 DEBUG devpinoyLogger:114 - Logged into the application. URL-> https://ui.cogmento.com/
+16:39:18,535 DEBUG devpinoyLogger:22 - Add deals test execution started
+16:39:19,291 DEBUG devpinoyLogger:163 - Moved to element: [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //a[@class='item'][@href="/deals"]]
+16:39:20,078 DEBUG devpinoyLogger:149 - Clicked on: //span[text()='Deals']
+16:39:20,118 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //button[text()='Create']] found on page
+16:39:20,583 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Create']
+16:39:20,662 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //div[text()='Create new Deal']] found on page
+16:39:21,184 DEBUG devpinoyLogger:156 - Typed in: //input[@name='title'] Value: Information Technology
+16:39:21,254 DEBUG devpinoyLogger:156 - Typed in: //div[@name='company']//input Value: FIS
+16:39:21,443 DEBUG devpinoyLogger:156 - Typed in: //textarea[@name='description'] Value: Fintech
+16:39:21,757 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Save']
+16:39:21,835 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //span[text()='Home']//preceding::i] found on page
+16:39:21,904 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+16:39:21,905 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+16:39:21,905 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+16:39:21,905 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+16:39:21,905 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+16:39:27,483 DEBUG devpinoyLogger:128 - Logged out of application
+16:39:27,484 DEBUG devpinoyLogger:103 - Test execution started
+16:39:32,871 DEBUG devpinoyLogger:114 - Logged into the application. URL-> https://ui.cogmento.com/
+16:39:32,872 DEBUG devpinoyLogger:22 - Add deals test execution started
+16:39:33,833 DEBUG devpinoyLogger:163 - Moved to element: [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //a[@class='item'][@href="/deals"]]
+16:39:34,722 DEBUG devpinoyLogger:149 - Clicked on: //span[text()='Deals']
+16:39:34,768 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //button[text()='Create']] found on page
+16:39:35,384 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Create']
+16:39:35,413 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //div[text()='Create new Deal']] found on page
+16:39:35,577 DEBUG devpinoyLogger:156 - Typed in: //input[@name='title'] Value: Space
+16:39:35,662 DEBUG devpinoyLogger:156 - Typed in: //div[@name='company']//input Value: NASA
+16:39:35,909 DEBUG devpinoyLogger:156 - Typed in: //textarea[@name='description'] Value: Rockets
+16:39:36,258 DEBUG devpinoyLogger:149 - Clicked on: //button[text()='Save']
+16:39:36,320 DEBUG devpinoyLogger:181 - Element -> [[FirefoxDriver: firefox on WINDOWS (b5307689-f830-4282-ac9b-def87c9a15f3)] -> xpath: //span[text()='Home']//preceding::i] found on page
+16:39:36,388 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+16:39:36,389 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+16:39:36,389 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+16:39:36,390 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+16:39:36,390 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+16:39:41,960 DEBUG devpinoyLogger:128 - Logged out of application
+16:39:43,024 DEBUG devpinoyLogger:137 - Test Execution completed!
