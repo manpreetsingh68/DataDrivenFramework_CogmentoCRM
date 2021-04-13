@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Contact added successfully-> Bob Marley]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="blank" href=Tue_Apr_13_08_13_39_IST_2021.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Contact added successfully-> John Smith]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="blank" href=Tue_Apr_13_08_14_14_IST_2021.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Contact added successfully-> Mike Jones]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="blank" href=Tue_Apr_13_08_14_59_IST_2021.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Contact added successfully-> Phil Murray]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="blank" href=Tue_Apr_13_08_16_16_IST_2021.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Deal added successfully-> FMCG Nestle]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="blank" href=Tue_Apr_13_08_16_48_IST_2021.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Deal added successfully-> Automobile Ford]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="blank" href=Tue_Apr_13_08_17_38_IST_2021.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Deal added successfully-> Information Technology FIS]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="blank" href=Tue_Apr_13_08_18_24_IST_2021.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Deal added successfully-> Space NASA]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="blank" href=Tue_Apr_13_08_19_00_IST_2021.jpg>Screenshot</a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Cogmento Suite" duration-ms="353197" started-at="2021-04-13T02:43:15Z" finished-at="2021-04-13T02:49:08Z">
+    <groups>
+    </groups>
+    <test name="Add Contacts Test" duration-ms="189090" started-at="2021-04-13T02:43:15Z" finished-at="2021-04-13T02:46:24Z">
+      <class name="com.datadriven.testcases.AddContactsTest">
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.datadriven.testcases.AddContactsTest@c86b9e3]" name="loginToApp" is-config="true" duration-ms="6029" started-at="2021-04-13T02:43:15Z" finished-at="2021-04-13T02:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="addContactsTest(java.util.Hashtable)[pri:0, instance:com.datadriven.testcases.AddContactsTest@c86b9e3]" name="addContactsTest" duration-ms="18037" started-at="2021-04-13T02:43:21Z" data-provider="dp" finished-at="2021-04-13T02:43:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{company=Microsoft, lastname=Marley, runmode=Y, firstname=Bob}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Contact added successfully-> Bob Marley]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="blank" href=Tue_Apr_13_08_13_39_IST_2021.jpg>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addContactsTest -->
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.datadriven.testcases.AddContactsTest@c86b9e3]" name="logoutOfApp" is-config="true" duration-ms="5812" started-at="2021-04-13T02:43:40Z" finished-at="2021-04-13T02:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApp -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.datadriven.testcases.AddContactsTest@c86b9e3]" name="loginToApp" is-config="true" duration-ms="6067" started-at="2021-04-13T02:43:46Z" finished-at="2021-04-13T02:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="addContactsTest(java.util.Hashtable)[pri:0, instance:com.datadriven.testcases.AddContactsTest@c86b9e3]" name="addContactsTest" duration-ms="21078" started-at="2021-04-13T02:43:52Z" data-provider="dp" finished-at="2021-04-13T02:44:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{company=Google, lastname=Smith, runmode=Y, firstname=John}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Contact added successfully-> John Smith]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="blank" href=Tue_Apr_13_08_14_14_IST_2021.jpg>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addContactsTest -->
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.datadriven.testcases.AddContactsTest@c86b9e3]" name="logoutOfApp" is-config="true" duration-ms="6490" started-at="2021-04-13T02:44:14Z" finished-at="2021-04-13T02:44:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApp -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.datadriven.testcases.AddContactsTest@c86b9e3]" name="loginToApp" is-config="true" duration-ms="6310" started-at="2021-04-13T02:44:20Z" finished-at="2021-04-13T02:44:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="addContactsTest(java.util.Hashtable)[pri:0, instance:com.datadriven.testcases.AddContactsTest@c86b9e3]" name="addContactsTest" duration-ms="32109" started-at="2021-04-13T02:44:27Z" data-provider="dp" finished-at="2021-04-13T02:44:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{company=FIS, lastname=Jones, runmode=Y, firstname=Mike}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Contact added successfully-> Mike Jones]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="blank" href=Tue_Apr_13_08_14_59_IST_2021.jpg>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addContactsTest -->
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.datadriven.testcases.AddContactsTest@c86b9e3]" name="logoutOfApp" is-config="true" duration-ms="6949" started-at="2021-04-13T02:44:59Z" finished-at="2021-04-13T02:45:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApp -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.datadriven.testcases.AddContactsTest@c86b9e3]" name="loginToApp" is-config="true" duration-ms="12077" started-at="2021-04-13T02:45:06Z" finished-at="2021-04-13T02:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="addContactsTest(java.util.Hashtable)[pri:0, instance:com.datadriven.testcases.AddContactsTest@c86b9e3]" name="addContactsTest" duration-ms="57449" started-at="2021-04-13T02:45:18Z" data-provider="dp" finished-at="2021-04-13T02:46:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{company=Facebook, lastname=Murray, runmode=Y, firstname=Phil}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Contact added successfully-> Phil Murray]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="blank" href=Tue_Apr_13_08_16_16_IST_2021.jpg>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addContactsTest -->
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.datadriven.testcases.AddContactsTest@c86b9e3]" name="logoutOfApp" is-config="true" duration-ms="7129" started-at="2021-04-13T02:46:17Z" finished-at="2021-04-13T02:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApp -->
+      </class> <!-- com.datadriven.testcases.AddContactsTest -->
+    </test> <!-- Add Contacts Test -->
+    <test name="Add Deals Test" duration-ms="164001" started-at="2021-04-13T02:46:24Z" finished-at="2021-04-13T02:49:08Z">
+      <class name="com.datadriven.testcases.AddDealsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.datadriven.testcases.AddDealsTest@6ff29830]" name="setUp" is-config="true" duration-ms="25360" started-at="2021-04-13T02:42:49Z" finished-at="2021-04-13T02:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.datadriven.testcases.AddDealsTest@6ff29830]" name="loginToApp" is-config="true" duration-ms="7789" started-at="2021-04-13T02:46:24Z" finished-at="2021-04-13T02:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="addDealsTest(java.util.Hashtable)[pri:0, instance:com.datadriven.testcases.AddDealsTest@6ff29830]" name="addDealsTest" duration-ms="15607" started-at="2021-04-13T02:46:32Z" data-provider="dp" finished-at="2021-04-13T02:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{company=Nestle, description=Food manufacturing, runmode=Y, title=FMCG}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Deal added successfully-> FMCG Nestle]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="blank" href=Tue_Apr_13_08_16_48_IST_2021.jpg>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addDealsTest -->
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.datadriven.testcases.AddDealsTest@6ff29830]" name="logoutOfApp" is-config="true" duration-ms="7828" started-at="2021-04-13T02:46:48Z" finished-at="2021-04-13T02:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApp -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.datadriven.testcases.AddDealsTest@6ff29830]" name="loginToApp" is-config="true" duration-ms="13126" started-at="2021-04-13T02:46:56Z" finished-at="2021-04-13T02:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="addDealsTest(java.util.Hashtable)[pri:0, instance:com.datadriven.testcases.AddDealsTest@6ff29830]" name="addDealsTest" duration-ms="28424" started-at="2021-04-13T02:47:09Z" data-provider="dp" finished-at="2021-04-13T02:47:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Deal added successfully-> Automobile Ford]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="blank" href=Tue_Apr_13_08_17_38_IST_2021.jpg>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addDealsTest -->
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.datadriven.testcases.AddDealsTest@6ff29830]" name="logoutOfApp" is-config="true" duration-ms="7281" started-at="2021-04-13T02:47:38Z" finished-at="2021-04-13T02:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApp -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.datadriven.testcases.AddDealsTest@6ff29830]" name="loginToApp" is-config="true" duration-ms="12787" started-at="2021-04-13T02:47:46Z" finished-at="2021-04-13T02:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="addDealsTest(java.util.Hashtable)[pri:0, instance:com.datadriven.testcases.AddDealsTest@6ff29830]" name="addDealsTest" duration-ms="25335" started-at="2021-04-13T02:47:59Z" data-provider="dp" finished-at="2021-04-13T02:48:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{company=FIS, description=Fintech, runmode=Y, title=Information Technology}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Deal added successfully-> Information Technology FIS]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="blank" href=Tue_Apr_13_08_18_24_IST_2021.jpg>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addDealsTest -->
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.datadriven.testcases.AddDealsTest@6ff29830]" name="logoutOfApp" is-config="true" duration-ms="6866" started-at="2021-04-13T02:48:25Z" finished-at="2021-04-13T02:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApp -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.datadriven.testcases.AddDealsTest@6ff29830]" name="loginToApp" is-config="true" duration-ms="7369" started-at="2021-04-13T02:48:32Z" finished-at="2021-04-13T02:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="addDealsTest(java.util.Hashtable)[pri:0, instance:com.datadriven.testcases.AddDealsTest@6ff29830]" name="addDealsTest" duration-ms="20619" started-at="2021-04-13T02:48:39Z" data-provider="dp" finished-at="2021-04-13T02:49:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{company=NASA, description=Rockets, runmode=Y, title=Space}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Deal added successfully-> Space NASA]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="blank" href=Tue_Apr_13_08_19_00_IST_2021.jpg>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addDealsTest -->
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.datadriven.testcases.AddDealsTest@6ff29830]" name="logoutOfApp" is-config="true" duration-ms="7739" started-at="2021-04-13T02:49:00Z" finished-at="2021-04-13T02:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.testcases.AddDealsTest@6ff29830]" name="tearDown" is-config="true" duration-ms="4597" started-at="2021-04-13T02:49:08Z" finished-at="2021-04-13T02:49:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.datadriven.testcases.AddDealsTest -->
+    </test> <!-- Add Deals Test -->
+  </suite> <!-- Cogmento Suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add Contacts Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="128.673">
+  <properties />
+  
+  
+            <testcase name="addContactsTest" time="21.078" classname="com.datadriven.testcases.AddContactsTest" />
+                <testcase name="addContactsTest" time="57.449" classname="com.datadriven.testcases.AddContactsTest" />
+                <testcase name="addContactsTest" time="18.037" classname="com.datadriven.testcases.AddContactsTest" />
+                <testcase name="addContactsTest" time="32.109" classname="com.datadriven.testcases.AddContactsTest" />
+      
+</testsuite>

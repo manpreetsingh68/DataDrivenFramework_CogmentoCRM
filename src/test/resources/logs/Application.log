@@ -1,0 +1,117 @@
+13/04/2021 08:12:49 devpinoyLogger Config File loaded!
+13/04/2021 08:12:49 devpinoyLogger OR File loaded!
+13/04/2021 08:13:11 devpinoyLogger Firefox browser launched!
+13/04/2021 08:13:15 devpinoyLogger Navigated to : https://ui.cogmento.com/
+13/04/2021 08:13:15 devpinoyLogger Test execution started
+13/04/2021 08:13:21 devpinoyLogger Logged into the application. URL-> https://ui.cogmento.com/
+13/04/2021 08:13:21 devpinoyLogger Add contact test execution started
+13/04/2021 08:13:26 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //a[@class='item'][@href="/contacts"]]
+13/04/2021 08:13:27 devpinoyLogger Clicked on: //span[text()='Contacts']
+13/04/2021 08:13:27 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //button[text()='Create']] found on page
+13/04/2021 08:13:28 devpinoyLogger Clicked on: //button[text()='Create']
+13/04/2021 08:13:29 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //div[text()='Create New Contact']] found on page
+13/04/2021 08:13:32 devpinoyLogger Typed in: //input[@name='first_name'] Value: Bob
+13/04/2021 08:13:35 devpinoyLogger Typed in: //input[@name='last_name'] Value: Marley
+13/04/2021 08:13:36 devpinoyLogger Typed in: //div[@name='company']//input Value: Microsoft
+13/04/2021 08:13:38 devpinoyLogger Clicked on: //button[text()='Save']
+13/04/2021 08:13:39 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //span[text()='Home']//preceding::i] found on page
+13/04/2021 08:13:46 devpinoyLogger Logged out of application
+13/04/2021 08:13:46 devpinoyLogger Test execution started
+13/04/2021 08:13:52 devpinoyLogger Logged into the application. URL-> https://ui.cogmento.com/
+13/04/2021 08:13:52 devpinoyLogger Add contact test execution started
+13/04/2021 08:13:57 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //a[@class='item'][@href="/contacts"]]
+13/04/2021 08:13:57 devpinoyLogger Clicked on: //span[text()='Contacts']
+13/04/2021 08:13:58 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //button[text()='Create']] found on page
+13/04/2021 08:13:59 devpinoyLogger Clicked on: //button[text()='Create']
+13/04/2021 08:13:59 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //div[text()='Create New Contact']] found on page
+13/04/2021 08:14:01 devpinoyLogger Typed in: //input[@name='first_name'] Value: John
+13/04/2021 08:14:08 devpinoyLogger Typed in: //input[@name='last_name'] Value: Smith
+13/04/2021 08:14:08 devpinoyLogger Typed in: //div[@name='company']//input Value: Google
+13/04/2021 08:14:12 devpinoyLogger Clicked on: //button[text()='Save']
+13/04/2021 08:14:13 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //span[text()='Home']//preceding::i] found on page
+13/04/2021 08:14:20 devpinoyLogger Logged out of application
+13/04/2021 08:14:20 devpinoyLogger Test execution started
+13/04/2021 08:14:27 devpinoyLogger Logged into the application. URL-> https://ui.cogmento.com/
+13/04/2021 08:14:27 devpinoyLogger Add contact test execution started
+13/04/2021 08:14:32 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //a[@class='item'][@href="/contacts"]]
+13/04/2021 08:14:33 devpinoyLogger Clicked on: //span[text()='Contacts']
+13/04/2021 08:14:33 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //button[text()='Create']] found on page
+13/04/2021 08:14:34 devpinoyLogger Clicked on: //button[text()='Create']
+13/04/2021 08:14:36 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //div[text()='Create New Contact']] found on page
+13/04/2021 08:14:40 devpinoyLogger Typed in: //input[@name='first_name'] Value: Mike
+13/04/2021 08:14:48 devpinoyLogger Typed in: //input[@name='last_name'] Value: Jones
+13/04/2021 08:14:50 devpinoyLogger Typed in: //div[@name='company']//input Value: FIS
+13/04/2021 08:14:57 devpinoyLogger Clicked on: //button[text()='Save']
+13/04/2021 08:14:59 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //span[text()='Home']//preceding::i] found on page
+13/04/2021 08:15:06 devpinoyLogger Logged out of application
+13/04/2021 08:15:06 devpinoyLogger Test execution started
+13/04/2021 08:15:18 devpinoyLogger Logged into the application. URL-> https://ui.cogmento.com/
+13/04/2021 08:15:18 devpinoyLogger Add contact test execution started
+13/04/2021 08:15:32 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //a[@class='item'][@href="/contacts"]]
+13/04/2021 08:15:35 devpinoyLogger Clicked on: //span[text()='Contacts']
+13/04/2021 08:15:35 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //button[text()='Create']] found on page
+13/04/2021 08:15:37 devpinoyLogger Clicked on: //button[text()='Create']
+13/04/2021 08:15:38 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //div[text()='Create New Contact']] found on page
+13/04/2021 08:15:43 devpinoyLogger Typed in: //input[@name='first_name'] Value: Phil
+13/04/2021 08:15:57 devpinoyLogger Typed in: //input[@name='last_name'] Value: Murray
+13/04/2021 08:15:58 devpinoyLogger Typed in: //div[@name='company']//input Value: Facebook
+13/04/2021 08:16:12 devpinoyLogger Clicked on: //button[text()='Save']
+13/04/2021 08:16:16 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //span[text()='Home']//preceding::i] found on page
+13/04/2021 08:16:24 devpinoyLogger Logged out of application
+13/04/2021 08:16:24 devpinoyLogger Test execution started
+13/04/2021 08:16:32 devpinoyLogger Logged into the application. URL-> https://ui.cogmento.com/
+13/04/2021 08:16:32 devpinoyLogger Add deals test execution started
+13/04/2021 08:16:37 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //a[@class='item'][@href="/deals"]]
+13/04/2021 08:16:38 devpinoyLogger Clicked on: //span[text()='Deals']
+13/04/2021 08:16:38 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //button[text()='Create']] found on page
+13/04/2021 08:16:40 devpinoyLogger Clicked on: //button[text()='Create']
+13/04/2021 08:16:42 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //div[text()='Create new Deal']] found on page
+13/04/2021 08:16:43 devpinoyLogger Typed in: //input[@name='title'] Value: FMCG
+13/04/2021 08:16:43 devpinoyLogger Typed in: //div[@name='company']//input Value: Nestle
+13/04/2021 08:16:46 devpinoyLogger Typed in: //textarea[@name='description'] Value: Food manufacturing
+13/04/2021 08:16:47 devpinoyLogger Clicked on: //button[text()='Save']
+13/04/2021 08:16:47 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //span[text()='Home']//preceding::i] found on page
+13/04/2021 08:16:56 devpinoyLogger Logged out of application
+13/04/2021 08:16:56 devpinoyLogger Test execution started
+13/04/2021 08:17:09 devpinoyLogger Logged into the application. URL-> https://ui.cogmento.com/
+13/04/2021 08:17:09 devpinoyLogger Add deals test execution started
+13/04/2021 08:17:15 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //a[@class='item'][@href="/deals"]]
+13/04/2021 08:17:16 devpinoyLogger Clicked on: //span[text()='Deals']
+13/04/2021 08:17:18 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //button[text()='Create']] found on page
+13/04/2021 08:17:22 devpinoyLogger Clicked on: //button[text()='Create']
+13/04/2021 08:17:23 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //div[text()='Create new Deal']] found on page
+13/04/2021 08:17:27 devpinoyLogger Typed in: //input[@name='title'] Value: Automobile
+13/04/2021 08:17:27 devpinoyLogger Typed in: //div[@name='company']//input Value: Ford
+13/04/2021 08:17:31 devpinoyLogger Typed in: //textarea[@name='description'] Value: Cars, Trucks
+13/04/2021 08:17:35 devpinoyLogger Clicked on: //button[text()='Save']
+13/04/2021 08:17:38 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //span[text()='Home']//preceding::i] found on page
+13/04/2021 08:17:46 devpinoyLogger Logged out of application
+13/04/2021 08:17:46 devpinoyLogger Test execution started
+13/04/2021 08:17:59 devpinoyLogger Logged into the application. URL-> https://ui.cogmento.com/
+13/04/2021 08:17:59 devpinoyLogger Add deals test execution started
+13/04/2021 08:18:06 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //a[@class='item'][@href="/deals"]]
+13/04/2021 08:18:07 devpinoyLogger Clicked on: //span[text()='Deals']
+13/04/2021 08:18:08 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //button[text()='Create']] found on page
+13/04/2021 08:18:10 devpinoyLogger Clicked on: //button[text()='Create']
+13/04/2021 08:18:11 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //div[text()='Create new Deal']] found on page
+13/04/2021 08:18:16 devpinoyLogger Typed in: //input[@name='title'] Value: Information Technology
+13/04/2021 08:18:17 devpinoyLogger Typed in: //div[@name='company']//input Value: FIS
+13/04/2021 08:18:21 devpinoyLogger Typed in: //textarea[@name='description'] Value: Fintech
+13/04/2021 08:18:22 devpinoyLogger Clicked on: //button[text()='Save']
+13/04/2021 08:18:24 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //span[text()='Home']//preceding::i] found on page
+13/04/2021 08:18:32 devpinoyLogger Logged out of application
+13/04/2021 08:18:32 devpinoyLogger Test execution started
+13/04/2021 08:18:39 devpinoyLogger Logged into the application. URL-> https://ui.cogmento.com/
+13/04/2021 08:18:39 devpinoyLogger Add deals test execution started
+13/04/2021 08:18:44 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //a[@class='item'][@href="/deals"]]
+13/04/2021 08:18:45 devpinoyLogger Clicked on: //span[text()='Deals']
+13/04/2021 08:18:47 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //button[text()='Create']] found on page
+13/04/2021 08:18:49 devpinoyLogger Clicked on: //button[text()='Create']
+13/04/2021 08:18:49 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //div[text()='Create new Deal']] found on page
+13/04/2021 08:18:51 devpinoyLogger Typed in: //input[@name='title'] Value: Space
+13/04/2021 08:18:52 devpinoyLogger Typed in: //div[@name='company']//input Value: NASA
+13/04/2021 08:18:57 devpinoyLogger Typed in: //textarea[@name='description'] Value: Rockets
+13/04/2021 08:18:59 devpinoyLogger Clicked on: //button[text()='Save']
+13/04/2021 08:19:00 devpinoyLogger Element -> [[FirefoxDriver: firefox on WINDOWS (e8d968e0-106d-40d6-ba10-90e4f8ad79fe)] -> xpath: //span[text()='Home']//preceding::i] found on page
+13/04/2021 08:19:08 devpinoyLogger Logged out of application
+13/04/2021 08:19:13 devpinoyLogger Test Execution completed!

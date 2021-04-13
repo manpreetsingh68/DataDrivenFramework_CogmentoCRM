@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>TestNG:  Cogmento Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Cogmento Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 08 17:59:36 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>70 seconds (70122 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.datadriven.testcases.AddContactsTest.addContactsTest()'><b>addContactsTest</b><br>Test class: com.datadriven.testcases.AddContactsTest<br>Parameters: Bob, Marley, Microsoft<br/>
+<a href="#Output-409565350" onClick='toggleBox("Output-409565350", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-409565350" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-409565350">
+Contact added successfully-> Bob Marley<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>com.datadriven.testcases.AddContactsTest@19d481b</td></tr>
+<tr>
+<td title='com.datadriven.testcases.AddContactsTest.addContactsTest()'><b>addContactsTest</b><br>Test class: com.datadriven.testcases.AddContactsTest<br>Parameters: John, Smith, Google<br/>
+<a href="#Output-1914615775" onClick='toggleBox("Output-1914615775", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1914615775" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1914615775">
+Contact added successfully-> John Smith<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.datadriven.testcases.AddContactsTest@19d481b</td></tr>
+<tr>
+<td title='com.datadriven.testcases.AddDealsTest.addDealsTest()'><b>addDealsTest</b><br>Test class: com.datadriven.testcases.AddDealsTest<br>Parameters: FMCG, Nestle, Food manufacturing<br/>
+<a href="#Output-167175174" onClick='toggleBox("Output-167175174", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-167175174" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-167175174">
+Deal added successfully-> FMCG Nestle<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.datadriven.testcases.AddDealsTest@1f97cf0d</td></tr>
+<tr>
+<td title='com.datadriven.testcases.AddDealsTest.addDealsTest()'><b>addDealsTest</b><br>Test class: com.datadriven.testcases.AddDealsTest<br>Parameters: Automobile, Ford, Cars, Trucks<br/>
+<a href="#Output-1455064947" onClick='toggleBox("Output-1455064947", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1455064947" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1455064947">
+Deal added successfully-> Automobile Ford<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.datadriven.testcases.AddDealsTest@1f97cf0d</td></tr>
+</table><p>
+</body>
+</html>

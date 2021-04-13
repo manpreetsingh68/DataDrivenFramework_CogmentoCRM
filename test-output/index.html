@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Cogmento_Suite">
+              <span class="suite-name border-passed">Cogmento Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Cogmento_Suite">
+                    <span>C:\Users\Manpreet\eclipse-workspace\DataDrivenFramework\src\test\resources\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Cogmento_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Cogmento_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Cogmento_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Cogmento_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Cogmento_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Cogmento_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Cogmento_Suite" class="hide-methods passed suite-Cogmento_Suite"> (hide)</a> <!-- hide-methods passed suite-Cogmento_Suite -->
+                      <a href="#" panel-name="suite-Cogmento_Suite" class="show-methods passed suite-Cogmento_Suite"> (show)</a> <!-- show-methods passed suite-Cogmento_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Cogmento_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddContactsTest" hash-for-method="addContactsTest({company=Facebook, lastname=Murray, runmode=Y, firstname=Phil})">addContactsTest({company=Facebook, lastname=Murray, runmode=Y, firstname=Phil})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddContactsTest" hash-for-method="addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John})">addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddContactsTest" hash-for-method="addContactsTest({company=Microsoft, lastname=Marley, runmode=Y, firstname=Bob})">addContactsTest({company=Microsoft, lastname=Marley, runmode=Y, firstname=Bob})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddContactsTest" hash-for-method="addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})">addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddDealsTest" hash-for-method="addDealsTest({company=Nestle, description=Food manufacturing, runmode=Y, title=FMCG})">addDealsTest({company=Nestle, description=Food manufacturing, runmode=Y, title=FMCG})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddDealsTest" hash-for-method="addDealsTest({company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile})">addDealsTest({company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddDealsTest" hash-for-method="addDealsTest({company=NASA, description=Rockets, runmode=Y, title=Space})">addDealsTest({company=NASA, description=Rockets, runmode=Y, title=Space})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddDealsTest" hash-for-method="addDealsTest({company=FIS, description=Fintech, runmode=Y, title=Information Technology})">addDealsTest({company=FIS, description=Fintech, runmode=Y, title=Information Technology})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Cogmento_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Cogmento_Suite" class="panel Cogmento_Suite">
+          <div class="suite-Cogmento_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.datadriven.testcases.AddDealsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addDealsTest({company=Nestle, description=Food manufacturing, runmode=Y, title=FMCG})">
+                  </a> <!-- addDealsTest({company=Nestle, description=Food manufacturing, runmode=Y, title=FMCG}) -->
+                  <span class="method-name">addDealsTest</span>
+                  <span class="parameters">({company=Nestle, description=Food manufacturing, runmode=Y, title=FMCG})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addDealsTest({company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile})">
+                  </a> <!-- addDealsTest({company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile}) -->
+                  <span class="method-name">addDealsTest</span>
+                  <span class="parameters">({company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addDealsTest({company=NASA, description=Rockets, runmode=Y, title=Space})">
+                  </a> <!-- addDealsTest({company=NASA, description=Rockets, runmode=Y, title=Space}) -->
+                  <span class="method-name">addDealsTest</span>
+                  <span class="parameters">({company=NASA, description=Rockets, runmode=Y, title=Space})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addDealsTest({company=FIS, description=Fintech, runmode=Y, title=Information Technology})">
+                  </a> <!-- addDealsTest({company=FIS, description=Fintech, runmode=Y, title=Information Technology}) -->
+                  <span class="method-name">addDealsTest</span>
+                  <span class="parameters">({company=FIS, description=Fintech, runmode=Y, title=Information Technology})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cogmento_Suite-class-passed -->
+          <div class="suite-Cogmento_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.datadriven.testcases.AddContactsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addContactsTest({company=Facebook, lastname=Murray, runmode=Y, firstname=Phil})">
+                  </a> <!-- addContactsTest({company=Facebook, lastname=Murray, runmode=Y, firstname=Phil}) -->
+                  <span class="method-name">addContactsTest</span>
+                  <span class="parameters">({company=Facebook, lastname=Murray, runmode=Y, firstname=Phil})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John})">
+                  </a> <!-- addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John}) -->
+                  <span class="method-name">addContactsTest</span>
+                  <span class="parameters">({company=Google, lastname=Smith, runmode=Y, firstname=John})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addContactsTest({company=Microsoft, lastname=Marley, runmode=Y, firstname=Bob})">
+                  </a> <!-- addContactsTest({company=Microsoft, lastname=Marley, runmode=Y, firstname=Bob}) -->
+                  <span class="method-name">addContactsTest</span>
+                  <span class="parameters">({company=Microsoft, lastname=Marley, runmode=Y, firstname=Bob})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})">
+                  </a> <!-- addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike}) -->
+                  <span class="method-name">addContactsTest</span>
+                  <span class="parameters">({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cogmento_Suite-class-passed -->
+        </div> <!-- panel Cogmento_Suite -->
+        <div panel-name="test-xml-Cogmento_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Manpreet\eclipse-workspace\DataDrivenFramework\src\test\resources\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Cogmento Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.datadriven.listeners.CustomListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Add Contacts Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.datadriven.testcases.AddContactsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add Contacts Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Add Deals Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.datadriven.testcases.AddDealsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add Deals Test --&gt;
+&lt;/suite&gt; &lt;!-- Cogmento Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Cogmento_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Cogmento Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Add Contacts Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Add Deals Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Cogmento_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Cogmento Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Cogmento_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Cogmento Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Cogmento_Suite');
+function tableData_Cogmento_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addDealsTest')
+data.setCell(0, 2, 'com.datadriven.testcases.AddDealsTest')
+data.setCell(0, 3, 16719);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addContactsTest')
+data.setCell(1, 2, 'com.datadriven.testcases.AddContactsTest')
+data.setCell(1, 3, 6145);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addContactsTest')
+data.setCell(2, 2, 'com.datadriven.testcases.AddContactsTest')
+data.setCell(2, 3, 5024);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addContactsTest')
+data.setCell(3, 2, 'com.datadriven.testcases.AddContactsTest')
+data.setCell(3, 3, 4722);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addDealsTest')
+data.setCell(4, 2, 'com.datadriven.testcases.AddDealsTest')
+data.setCell(4, 3, 4491);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addDealsTest')
+data.setCell(5, 2, 'com.datadriven.testcases.AddDealsTest')
+data.setCell(5, 3, 4375);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addContactsTest')
+data.setCell(6, 2, 'com.datadriven.testcases.AddContactsTest')
+data.setCell(6, 3, 4232);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addDealsTest')
+data.setCell(7, 2, 'com.datadriven.testcases.AddDealsTest')
+data.setCell(7, 3, 3376);
+window.suiteTableData['Cogmento_Suite']= { tableData: data, tableDiv: 'times-div-Cogmento_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <div id="times-div-Cogmento_Suite">
+              </div> <!-- times-div-Cogmento_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Cogmento_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Cogmento Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addContactsTest({company=Facebook, lastname=Murray, runmode=Y, firstname=Phil})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Contact added successfully-> Phil Murray</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=Mon_Apr_12_11_46_16_IST_2021.jpg>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Contact added successfully-> John Smith</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=Mon_Apr_12_11_45_59_IST_2021.jpg>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addContactsTest({company=Microsoft, lastname=Marley, runmode=Y, firstname=Bob})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Contact added successfully-> Bob Marley</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=Mon_Apr_12_11_45_49_IST_2021.jpg>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Contact added successfully-> Mike Jones</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=Mon_Apr_12_11_46_07_IST_2021.jpg>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addDealsTest({company=Nestle, description=Food manufacturing, runmode=Y, title=FMCG})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Deal added successfully-> FMCG Nestle</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=Mon_Apr_12_11_46_38_IST_2021.jpg>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addDealsTest({company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Deal added successfully-> Automobile Ford</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=Mon_Apr_12_11_46_46_IST_2021.jpg>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addDealsTest({company=NASA, description=Rockets, runmode=Y, title=Space})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Deal added successfully-> Space NASA</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=Mon_Apr_12_11_47_13_IST_2021.jpg>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addDealsTest({company=FIS, description=Fintech, runmode=Y, title=Information Technology})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Deal added successfully-> Information Technology FIS</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=Mon_Apr_12_11_46_53_IST_2021.jpg>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Cogmento_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Cogmento_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.datadriven.testcases.AddDealsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.datadriven.testcases.AddContactsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">13106 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addContactsTest({company=Microsoft, lastname=Marley, runmode=Y, firstname=Bob})</span>
+                <span class="method-start">16817 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutOfApp</span>
+                <span class="method-start">23906 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">24435 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John})</span>
+                <span class="method-start">27936 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutOfApp</span>
+                <span class="method-start">33318 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">33565 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})</span>
+                <span class="method-start">37017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutOfApp</span>
+                <span class="method-start">41924 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">42199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addContactsTest({company=Facebook, lastname=Murray, runmode=Y, firstname=Phil})</span>
+                <span class="method-start">44825 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutOfApp</span>
+                <span class="method-start">50514 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.datadriven.testcases.AddDealsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">50778 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addDealsTest({company=Nestle, description=Food manufacturing, runmode=Y, title=FMCG})</span>
+                <span class="method-start">67572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutOfApp</span>
+                <span class="method-start">72499 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">72812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addDealsTest({company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile})</span>
+                <span class="method-start">75805 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutOfApp</span>
+                <span class="method-start">80663 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">80879 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addDealsTest({company=FIS, description=Fintech, runmode=Y, title=Information Technology})</span>
+                <span class="method-start">83739 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutOfApp</span>
+                <span class="method-start">87585 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">87797 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addDealsTest({company=NASA, description=Rockets, runmode=Y, title=Space})</span>
+                <span class="method-start">90341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutOfApp</span>
+                <span class="method-start">107572 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">107843 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
