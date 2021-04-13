@@ -11,7 +11,9 @@ import com.datadriven.base.TestBase;
 import com.datadriven.utils.TestUtil;
 
 public class AddDealsTest extends TestBase {
-
+	/*
+	 * This test case adds a new deal 
+	 */
 	@Test(dataProviderClass=TestUtil.class, dataProvider="dp")
 	public void addDealsTest(Hashtable<String, String> data) {
 		

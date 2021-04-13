@@ -11,7 +11,9 @@ import com.datadriven.base.TestBase;
 import com.datadriven.utils.TestUtil;
 
 public class AddContactsTest extends TestBase {
-
+	/*
+	 * This test case adds a new contact 
+	 */
 	@Test(dataProviderClass=TestUtil.class, dataProvider="dp")
 	public void addContactsTest(Hashtable<String, String> data) {
 		
