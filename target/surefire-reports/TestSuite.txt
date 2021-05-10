@@ -1,4 +1,23 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 393.708 s - in TestSuite
+Tests run: 13, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 105.988 s <<< FAILURE! - in TestSuite
+addDealsTest(com.datadriven.testcases.AddDealsTest)  Time elapsed: 1.946 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <span class="item-text"> is not clickable at point (31,252) because another element <div class="ui error floating icon message"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANPREET', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 11672, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 833bcdcd-d4b8-49e9-88e5-a0de86c6694f
+	at com.datadriven.testcases.AddDealsTest.addDealsTest(AddDealsTest.java:29)
+
+logoutOfApp(com.datadriven.testcases.AddDealsTest)  Time elapsed: 7.149 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <i class="settings icon"> is not clickable at point (972,22) because another element <div class="ui-alerts top-right "> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANPREET', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 11672, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 833bcdcd-d4b8-49e9-88e5-a0de86c6694f
+

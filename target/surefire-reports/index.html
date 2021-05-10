@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Cogmento_Suite">
-              <span class="suite-name border-passed">Cogmento Suite</span>
+              <span class="suite-name border-failed">Cogmento Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,40 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">8 methods, 1 failed,  2 skipped,  5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Cogmento_Suite" class="hide-methods failed suite-Cogmento_Suite"> (hide)</a> <!-- hide-methods failed suite-Cogmento_Suite -->
+                      <a href="#" panel-name="suite-Cogmento_Suite" class="show-methods failed suite-Cogmento_Suite"> (show)</a> <!-- show-methods failed suite-Cogmento_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Cogmento_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddDealsTest" hash-for-method="addDealsTest({company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile})">addDealsTest({company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Cogmento_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Cogmento_Suite" class="hide-methods skipped suite-Cogmento_Suite"> (hide)</a> <!-- hide-methods skipped suite-Cogmento_Suite -->
+                      <a href="#" panel-name="suite-Cogmento_Suite" class="show-methods skipped suite-Cogmento_Suite"> (show)</a> <!-- show-methods skipped suite-Cogmento_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Cogmento_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddDealsTest" hash-for-method="addDealsTest">addDealsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddDealsTest" hash-for-method="addDealsTest">addDealsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Cogmento_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +135,7 @@
                     <div class="method-list-content passed suite-Cogmento_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddContactsTest" hash-for-method="addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John})">addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John})</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddContactsTest" hash-for-method="addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})">addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -117,27 +150,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddContactsTest" hash-for-method="addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})">addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddDealsTest" hash-for-method="addDealsTest({company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile})">addDealsTest({company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile})</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddContactsTest" hash-for-method="addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John})">addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddDealsTest" hash-for-method="addDealsTest({company=Nestle, description=Food manufacturing, runmode=Y, title=FMCG})">addDealsTest({company=Nestle, description=Food manufacturing, runmode=Y, title=FMCG})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddDealsTest" hash-for-method="addDealsTest({company=NASA, description=Rockets, runmode=Y, title=Space})">addDealsTest({company=NASA, description=Rockets, runmode=Y, title=Space})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.datadriven.testcases.AddDealsTest" hash-for-method="addDealsTest({company=FIS, description=Fintech, runmode=Y, title=Information Technology})">addDealsTest({company=FIS, description=Fintech, runmode=Y, title=Information Technology})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Cogmento_Suite -->
@@ -152,9 +170,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Cogmento_Suite" class="panel Cogmento_Suite">
-          <div class="suite-Cogmento_Suite-class-passed">
+          <div class="suite-Cogmento_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.datadriven.testcases.AddDealsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -164,30 +182,96 @@
                   </a> <!-- addDealsTest({company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile}) -->
                   <span class="method-name">addDealsTest</span>
                   <span class="parameters">({company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile})</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;span class=&quot;item-text&quot;&gt; is not clickable at point (31,252) because another element &lt;div class=&quot;ui error floating icon message&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 11672, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 833bcdcd-d4b8-49e9-88e5-a0de86c6694f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.datadriven.base.TestBase.click(TestBase.java:148)
+	at com.datadriven.testcases.AddDealsTest.addDealsTest(AddDealsTest.java:29)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cogmento_Suite-class-failed -->
+          <div class="suite-Cogmento_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.datadriven.testcases.AddDealsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addDealsTest">
+                  </a> <!-- addDealsTest -->
+                  <span class="method-name">addDealsTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;i class=&quot;settings icon&quot;&gt; is not clickable at point (972,22) because another element &lt;div class=&quot;ui-alerts top-right &quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 11672, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 833bcdcd-d4b8-49e9-88e5-a0de86c6694f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.datadriven.base.TestBase.logoutOfApp(TestBase.java:125)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addDealsTest">
+                  </a> <!-- addDealsTest -->
+                  <span class="method-name">addDealsTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;i class=&quot;settings icon&quot;&gt; is not clickable at point (972,22) because another element &lt;div class=&quot;ui-alerts top-right &quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 11672, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 833bcdcd-d4b8-49e9-88e5-a0de86c6694f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.datadriven.base.TestBase.logoutOfApp(TestBase.java:125)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cogmento_Suite-class-skipped -->
+          <div class="suite-Cogmento_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.datadriven.testcases.AddDealsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="addDealsTest({company=Nestle, description=Food manufacturing, runmode=Y, title=FMCG})">
                   </a> <!-- addDealsTest({company=Nestle, description=Food manufacturing, runmode=Y, title=FMCG}) -->
                   <span class="method-name">addDealsTest</span>
                   <span class="parameters">({company=Nestle, description=Food manufacturing, runmode=Y, title=FMCG})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="addDealsTest({company=NASA, description=Rockets, runmode=Y, title=Space})">
-                  </a> <!-- addDealsTest({company=NASA, description=Rockets, runmode=Y, title=Space}) -->
-                  <span class="method-name">addDealsTest</span>
-                  <span class="parameters">({company=NASA, description=Rockets, runmode=Y, title=Space})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="addDealsTest({company=FIS, description=Fintech, runmode=Y, title=Information Technology})">
-                  </a> <!-- addDealsTest({company=FIS, description=Fintech, runmode=Y, title=Information Technology}) -->
-                  <span class="method-name">addDealsTest</span>
-                  <span class="parameters">({company=FIS, description=Fintech, runmode=Y, title=Information Technology})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -200,10 +284,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John})">
-                  </a> <!-- addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John}) -->
+                  <a name="addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})">
+                  </a> <!-- addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike}) -->
                   <span class="method-name">addContactsTest</span>
-                  <span class="parameters">({company=Google, lastname=Smith, runmode=Y, firstname=John})</span>
+                  <span class="parameters">({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -224,10 +308,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})">
-                  </a> <!-- addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike}) -->
+                  <a name="addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John})">
+                  </a> <!-- addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John}) -->
                   <span class="method-name">addContactsTest</span>
-                  <span class="parameters">({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})</span>
+                  <span class="parameters">({company=Google, lastname=Smith, runmode=Y, firstname=John})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -301,40 +385,40 @@ data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addContactsTest')
 data.setCell(0, 2, 'com.datadriven.testcases.AddContactsTest')
-data.setCell(0, 3, 57449);
+data.setCell(0, 3, 5939);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'addContactsTest')
 data.setCell(1, 2, 'com.datadriven.testcases.AddContactsTest')
-data.setCell(1, 3, 32109);
+data.setCell(1, 3, 5454);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'addDealsTest')
-data.setCell(2, 2, 'com.datadriven.testcases.AddDealsTest')
-data.setCell(2, 3, 28424);
+data.setCell(2, 1, 'addContactsTest')
+data.setCell(2, 2, 'com.datadriven.testcases.AddContactsTest')
+data.setCell(2, 3, 5255);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'addDealsTest')
-data.setCell(3, 2, 'com.datadriven.testcases.AddDealsTest')
-data.setCell(3, 3, 25335);
+data.setCell(3, 1, 'addContactsTest')
+data.setCell(3, 2, 'com.datadriven.testcases.AddContactsTest')
+data.setCell(3, 3, 4968);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'addContactsTest')
-data.setCell(4, 2, 'com.datadriven.testcases.AddContactsTest')
-data.setCell(4, 3, 21078);
+data.setCell(4, 1, 'addDealsTest')
+data.setCell(4, 2, 'com.datadriven.testcases.AddDealsTest')
+data.setCell(4, 3, 4940);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'addDealsTest')
 data.setCell(5, 2, 'com.datadriven.testcases.AddDealsTest')
-data.setCell(5, 3, 20619);
+data.setCell(5, 3, 1932);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'addContactsTest')
-data.setCell(6, 2, 'com.datadriven.testcases.AddContactsTest')
-data.setCell(6, 3, 18037);
+data.setCell(6, 1, 'addDealsTest')
+data.setCell(6, 2, 'com.datadriven.testcases.AddDealsTest')
+data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'addDealsTest')
 data.setCell(7, 2, 'com.datadriven.testcases.AddDealsTest')
-data.setCell(7, 3, 15607);
+data.setCell(7, 3, 0);
 window.suiteTableData['Cogmento_Suite']= { tableData: data, tableDiv: 'times-div-Cogmento_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
               <div id="times-div-Cogmento_Suite">
               </div> <!-- times-div-Cogmento_Suite -->
             </div> <!-- times-div -->
@@ -346,12 +430,12 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John})</span>
+              <span class="reporter-method-name">addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Contact added successfully-> John Smith</span>
+                <span class="reporter-method-output">Contact added successfully-> Mike Jones</span>
                 <span class="reporter-method-output">Click to see screenshot</span>
                 <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><a target="blank" href=Tue_Apr_13_08_14_14_IST_2021.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><a target="blank" href=Mon_May_10_16_54_10_IST_2021.jpg>Screenshot</a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -360,7 +444,7 @@ return data;
                 <span class="reporter-method-output">Contact added successfully-> Phil Murray</span>
                 <span class="reporter-method-output">Click to see screenshot</span>
                 <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><a target="blank" href=Tue_Apr_13_08_16_16_IST_2021.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><a target="blank" href=Mon_May_10_16_54_26_IST_2021.jpg>Screenshot</a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -369,25 +453,16 @@ return data;
                 <span class="reporter-method-output">Contact added successfully-> Bob Marley</span>
                 <span class="reporter-method-output">Click to see screenshot</span>
                 <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><a target="blank" href=Tue_Apr_13_08_13_39_IST_2021.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><a target="blank" href=Mon_May_10_16_53_37_IST_2021.jpg>Screenshot</a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})</span>
+              <span class="reporter-method-name">addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John})</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Contact added successfully-> Mike Jones</span>
+                <span class="reporter-method-output">Contact added successfully-> John Smith</span>
                 <span class="reporter-method-output">Click to see screenshot</span>
                 <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><a target="blank" href=Tue_Apr_13_08_14_59_IST_2021.jpg>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">addDealsTest({company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile})</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Deal added successfully-> Automobile Ford</span>
-                <span class="reporter-method-output">Click to see screenshot</span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><a target="blank" href=Tue_Apr_13_08_17_38_IST_2021.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><a target="blank" href=Mon_May_10_16_53_53_IST_2021.jpg>Screenshot</a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -396,25 +471,15 @@ return data;
                 <span class="reporter-method-output">Deal added successfully-> FMCG Nestle</span>
                 <span class="reporter-method-output">Click to see screenshot</span>
                 <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><a target="blank" href=Tue_Apr_13_08_16_48_IST_2021.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><a target="blank" href=Mon_May_10_16_54_42_IST_2021.jpg>Screenshot</a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">addDealsTest({company=NASA, description=Rockets, runmode=Y, title=Space})</span>
+              <span class="reporter-method-name">addDealsTest({company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile})</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Deal added successfully-> Space NASA</span>
                 <span class="reporter-method-output">Click to see screenshot</span>
                 <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><a target="blank" href=Tue_Apr_13_08_19_00_IST_2021.jpg>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">addDealsTest({company=FIS, description=Fintech, runmode=Y, title=Information Technology})</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Deal added successfully-> Information Technology FIS</span>
-                <span class="reporter-method-output">Click to see screenshot</span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><a target="blank" href=Tue_Apr_13_08_18_24_IST_2021.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><a target="blank" href=Mon_May_10_16_54_55_IST_2021.jpg>Screenshot</a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -433,6 +498,14 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.datadriven.testcases.AddDealsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addDealsTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addDealsTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
@@ -442,106 +515,86 @@ return data;
               <div class="chronological-class-name">com.datadriven.testcases.AddContactsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">loginToApp</span>
-                <span class="method-start">25696 ms</span>
+                <span class="method-start">7286 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addContactsTest({company=Microsoft, lastname=Marley, runmode=Y, firstname=Bob})</span>
-                <span class="method-start">31725 ms</span>
+                <span class="method-start">12777 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logoutOfApp</span>
-                <span class="method-start">50913 ms</span>
+                <span class="method-start">19370 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">loginToApp</span>
-                <span class="method-start">56726 ms</span>
+                <span class="method-start">24916 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addContactsTest({company=Google, lastname=Smith, runmode=Y, firstname=John})</span>
-                <span class="method-start">62793 ms</span>
+                <span class="method-start">30301 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logoutOfApp</span>
-                <span class="method-start">84503 ms</span>
+                <span class="method-start">35432 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">loginToApp</span>
-                <span class="method-start">90994 ms</span>
+                <span class="method-start">41003 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addContactsTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})</span>
-                <span class="method-start">97304 ms</span>
+                <span class="method-start">46610 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logoutOfApp</span>
-                <span class="method-start">129983 ms</span>
+                <span class="method-start">52220 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">loginToApp</span>
-                <span class="method-start">136933 ms</span>
+                <span class="method-start">57772 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addContactsTest({company=Facebook, lastname=Murray, runmode=Y, firstname=Phil})</span>
-                <span class="method-start">149010 ms</span>
+                <span class="method-start">63134 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logoutOfApp</span>
-                <span class="method-start">207318 ms</span>
+                <span class="method-start">68518 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.datadriven.testcases.AddDealsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">loginToApp</span>
-                <span class="method-start">214569 ms</span>
+                <span class="method-start">74117 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addDealsTest({company=Nestle, description=Food manufacturing, runmode=Y, title=FMCG})</span>
-                <span class="method-start">222358 ms</span>
+                <span class="method-start">79553 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logoutOfApp</span>
-                <span class="method-start">238792 ms</span>
+                <span class="method-start">84603 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">loginToApp</span>
-                <span class="method-start">246621 ms</span>
+                <span class="method-start">90145 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">addDealsTest({company=Ford, description=Cars, Trucks, runmode=Y, title=Automobile})</span>
-                <span class="method-start">259747 ms</span>
+                <span class="method-start">95517 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">logoutOfApp</span>
-                <span class="method-start">289026 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">loginToApp</span>
-                <span class="method-start">296308 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">addDealsTest({company=FIS, description=Fintech, runmode=Y, title=Information Technology})</span>
-                <span class="method-start">309095 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">logoutOfApp</span>
-                <span class="method-start">335330 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">loginToApp</span>
-                <span class="method-start">342196 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">addDealsTest({company=NASA, description=Rockets, runmode=Y, title=Space})</span>
-                <span class="method-start">349565 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">logoutOfApp</span>
-                <span class="method-start">370818 ms</span>
+                <span class="method-start">97621 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">378571 ms</span>
+                <span class="method-start">102766 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

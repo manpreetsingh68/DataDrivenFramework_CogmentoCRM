@@ -4,13 +4,13 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="128.673">
+           time="21.616">
   <properties />
   
   
-            <testcase name="addContactsTest" time="21.078" classname="com.datadriven.testcases.AddContactsTest" />
-                <testcase name="addContactsTest" time="57.449" classname="com.datadriven.testcases.AddContactsTest" />
-                <testcase name="addContactsTest" time="18.037" classname="com.datadriven.testcases.AddContactsTest" />
-                <testcase name="addContactsTest" time="32.109" classname="com.datadriven.testcases.AddContactsTest" />
+            <testcase name="addContactsTest" time="5.454" classname="com.datadriven.testcases.AddContactsTest" />
+                <testcase name="addContactsTest" time="5.255" classname="com.datadriven.testcases.AddContactsTest" />
+                <testcase name="addContactsTest" time="5.939" classname="com.datadriven.testcases.AddContactsTest" />
+                <testcase name="addContactsTest" time="4.968" classname="com.datadriven.testcases.AddContactsTest" />
       
 </testsuite>
